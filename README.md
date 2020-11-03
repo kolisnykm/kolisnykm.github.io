@@ -100,7 +100,9 @@ I would like to thanks all the members of Fantastic Five for their workshopping 
 
 ## FAQ
 **I followed the steps but there is nothing at myUsername.github.io, why?**
+
 While the updates to GitHub pages are usually fairly quick, it can take up to 20 minutes for updates to occur.
 
 **I don't like the layout and style of any of the default themes, how do I edit these things with Jekyll?**
+
 Using Jekyll software is outside the scope of this document, but Mike Dane's  [Jekyll Course](https://www.mikedane.com/static-site-generators/jekyll) offers easy to follow guides for working with Jekyll.
