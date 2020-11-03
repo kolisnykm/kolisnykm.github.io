@@ -6,9 +6,9 @@ For computer science students and other beginner technical writers wanting a loo
 1. [Overview](#overview).
 2. [Prerequisites](#prerequisites).
 3. [Instructions](#instructions).    
-    1. [Create distributed version control repository](#1.-create-distributed-version-control-repository).
-    2. [Add lightweight markup resume](#2.-add-lightweight-markup-resume).
-    3. [Make static website](#3.-make-static-website).
+    1. [Create distributed version control repository](#create-distributed-version-control-repository).
+    2. [Add lightweight markup resume](#add-lightweight-markup-resume).
+    3. [Make static website](#make-static-website).
     4. [Quick gif guide](#quick-gif-guide)
 4. [More Resources](#more-resources)
 5. [Acknowledgments](#acknowledgments)
@@ -35,7 +35,7 @@ If you do not currently have a GitHub account go to [GitHub](https://github.com)
 
 ## Instructions
 
-### 1. Create distributed version control repository
+### Create distributed version control repository
 You will need a new repository to house your resume on GitHub pages. We will be using GitHub because it offers distributed version control, it is open source, and it is widely used.
 
 **To create a new repository that is GitHub pages ready:**
@@ -49,7 +49,7 @@ You will need a new repository to house your resume on GitHub pages. We will be 
 
 You should now be in your new repository.
 
-### 2. Add lightweight markup resume
+### Add lightweight markup resume
 We will be using [Markdown](https://www.markdownguide.org/) as our lightweight markup. Markdown is easy to learn and the base syntax allows for compatibility across a broad range of platforms but lacks some standard features like tables and code blocks. Since we are using GitHub I would recommend using [GitHub flavored markdown](https://github.github.com/gfm/) as it offers more features and is fully compatible with GitHub Pages and Jekyll.
 
 Editing tools are available on the GitHub site so all edits can be done there but I would recommend using [Atom](https://atom.io/) to edit documents for its side preview window, live server on localhost, IDE terminal, and most importantly, full GitHub integration.
@@ -60,7 +60,7 @@ Editing tools are available on the GitHub site so all edits can be done there bu
 2. Populate index.md with your resume formatted in Markdown.
 3. Scroll down and click the **Commit new file** button.
 
-### 3. Make static website
+### Make static website
 [Jekyll](https://jekyllrb.com/) will build the website for hosting on [GitHub Pages](https://pages.github.com). We will be using one of the default Jekyll templates to provide our website layouts and styles. You can edit existing templates and create your own.
 
 **To generate your static website:**
