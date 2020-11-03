@@ -6,9 +6,10 @@ For computer science students and other beginner technical writers wanting a loo
 1. [Overview](#overview).
 2. [Prerequisites](#prerequisites).
 3. [Instructions](#instructions).    
-    1. [Create distributed version control repository](#create-distributed-version-control-repository).
-    2. [Add lightweight markup resume](#add-lightweight-markup-resume).
-    3. [Make static website](#make-static-website).
+    1. [Create distributed version control repository](#1.-create-distributed-version-control-repository).
+    2. [Add lightweight markup resume](#2.-add-lightweight-markup-resume).
+    3. [Make static website](#3.-make-static-website).
+    4. [Quick gif guide](#quick-gif-guide)
 4. [More Resources](#more-resources)
 5. [Acknowledgments](#acknowledgments)
 6. [FAQ](#faq)
@@ -34,17 +35,16 @@ If you do not currently have a GitHub account go to [GitHub](https://github.com)
 
 ## Instructions
 
-![Instruction.gif](yikes.gif)
-
-
 ### 1. Create distributed version control repository
 You will need a new repository to house your resume on GitHub pages. We will be using GitHub because it offers distributed version control, it is open source, and it is widely used.
 
 **To create a new repository that is GitHub pages ready:**
 1. Go to your GitHub home screen.
-3. Click the **New** button
-4. Name the repository _yourUsername_.github.io.
-**Warning:** naming the repository anything other than _yourUsername_.github.io will not create a repository compatible with GitHub Pages.
+2. Click the **New** button
+3. Name the repository _yourUsername_.github.io.  **Warning:** naming the repository anything other than _yourUsername_.github.io will not create a repository compatible with GitHub Pages.
+4. Make sure repository is public.
+5. Initialize the repository with a README file by checking the **Add a README file** checkbox.
+6. Click **Create repository** button.
 
 
 You should now be in your new repository.
@@ -55,9 +55,10 @@ We will be using [Markdown](https://www.markdownguide.org/) as our lightweight m
 Editing tools are available on the GitHub site so all edits can be done there but I would recommend using [Atom](https://atom.io/) to edit documents for its side preview window, live server on localhost, IDE terminal, and most importantly, full GitHub integration.
 
 **To add your resume to the repository:**
-1. Create a markdown file named index.md.
+1. Click the **Add file** button within your new repository.
+2. Name the new file index.md.
 2. Populate index.md with your resume formatted in Markdown.
-3. Click the **Add file** drop-down menu and add your resume to the repository.
+3. Scroll down and click the **Commit new file** button.
 
 ### 3. Make static website
 [Jekyll](https://jekyllrb.com/) will build the website for hosting on [GitHub Pages](https://pages.github.com). We will be using one of the default Jekyll templates to provide our website layouts and styles. You can edit existing templates and create your own.
@@ -66,11 +67,15 @@ Editing tools are available on the GitHub site so all edits can be done there bu
 1. Go to your GitHub repository
 2. Select the **Settings** tab.
 3. Scroll down to the **GitHub Pages** section.
-4. Click the **Select theme** button and choose your theme.
+4. Click the **Choose a theme** button.
+5. Find a theme you like and click the **Select theme** button.
 
 Once the theme is selected you will find a new file in your repository named **_config.yml** this file holds the settings for the overall template and can be edited to suit your needs.
 
 Your website is now hosted on GitHub Pages at https://_yourUsername_.github.io.
+
+### Quick gif guide
+![Quick guide](gifGuide.gif)
 
 
 ## More Resources
@@ -86,3 +91,8 @@ I would like to thanks all the members of Fantastic Five for their workshopping 
 
 
 ## FAQ
+**I followed the steps but there is nothing at myUsername.github.io, why?**
+While the updates to GitHub pages are usually fairly quick, it can take up to 20 minutes for updates to occur.
+
+**I don't like the layout and style of any of the default themes, how do I edit these things?**
+Using Jekyll software is outside the scope of this document, but Mike Dane's  [Jekyll Course](https://www.mikedane.com/static-site-generators/jekyll) offers easy to follow guides for working with Jekyll.
