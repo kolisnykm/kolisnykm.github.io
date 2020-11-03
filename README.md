@@ -20,19 +20,23 @@ We will be applying three principles form Andrew Etter's book [_MODERN TECHNICAL
 
 1. **Use distributed version control** - Distributed version control is used by developers because it allows for multiple people to concurrently work on the same file, online or offline, while keeping track of all the changes made.
 This may seem like overkill for a resume but it allows you to have several versions ready to go that can quickly edited and posted depending on your current needs. But more importantly, using distributed version control demonstrates to developers that you know the tools of the trade.
+
 We will be using [GitHub](https://github.com/) for our distributed version control.
 
 
 2. **Use lightweight markup** - Formatting with lightweight markup allows you to format your document inline with the text, making it easily readable by anyone but also easily translated into xml for building websites.
+
 We will be using [Markdown](https://www.markdownguide.org/) as our lightweight markup to format our resume.
 
 
 3. **Make static websites** - Static websites are excellent for documentation, they are fast, secure, portable, easy to translate to other document formats, and easy to test on any computer because they need few resources and have no dependencies on databases or other programs like JavaScript.
+
 We will be hosting our resume on [GitHub Pages](https://pages.github.com/) which will freely host one site per member and has excellent integration of the static site generating software [Jekyll](https://jekyllrb.com/).
 
 
 ## Prerequisites
 The instructions below assume you already have a GitHub account and a current resume.
+
 If you do not currently have a GitHub account go to [GitHub](https://github.com) and signup for a free account.
 
 
